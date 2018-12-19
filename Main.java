@@ -8,7 +8,7 @@ import java.util.Optional;
 public class Main {
 	public static void main(String[] args) throws Exception {
 		ArrayList<Integer> input = new ArrayList<Integer>();
-		String path = "C:\\Users\\Andreas\\Desktop\\Advent of Code\\2018 Day 1\\src\\input.txt";
+		String path = "src\\input.txt";
 		try(BufferedReader br = new BufferedReader(new FileReader(path))){
 			String line;
 			while((line = br.readLine()) != null)
